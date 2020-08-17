@@ -1,0 +1,141 @@
+/*Pagina Index*/
+*{
+   margin:0px ;
+    padding:0px
+}
+body{
+    background-position:center;
+    text-align:center;
+    background-color: white;
+    margin:auto;
+    width:1000px
+}
+  
+header{
+    background-color: #0b8aa1;
+    text-align:left;
+    height: 60px;
+    padding: 15px;
+    width: 1000px;
+}
+
+
+h1,h2{
+    text-align: center;
+    color:#1a2340;
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu #divBusca{
+background-color:white;
+  border:none;
+  border-radius:15px;
+  width:300px;
+  margin-bottom: 20px;
+ 
+}
+.menu #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+    justify-content: right;
+
+  }
+ 
+.menu  li, a{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color:#1a2340;
+    padding: 15px 10px 0 0;
+
+   
+   
+
+}
+.menu a:hover{
+    background-color:rgba(0,0,0,0.5);
+    color:#0b8aa1;
+    
+}
+.paris{
+    width:300px;
+    height: 300px; 
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.txt{
+    text-align: justify;
+    font-size: 18px;
+    color:#1a2340;
+    font-family: 'Archivo', sans-serif;
+}
+.foto img{
+    width:300px;
+    height:400px;
+    padding:15px
+     
+}
+footer{
+    background-color: #0b8aa1;
+    margin-top: 85px;
+}
+.redes img{
+    width:30px;
+     height:30px;
+     padding:10px;
+    
+}
+.redes img:hover{
+    background-color:rgba(0,0,0,0.5);
+    padding:11px;
+     text-align:center;
+    }
+
+form select{
+    background: none;
+    border:none;
+    width:100px;
+    height: 30px;
+}
+form  input{
+    background: none;
+    border:none;
+    width:200px;
+    height: 30px;
+}
+form button{
+    background: #0b8aa1;
+    border:none;
+    color:#1a2340;
+    border-radius:0.8rem;
+    width:100px;
+    height: 30px;
+}
+form label{
+    color: #0b8aa1;
+    
+    
+}
+
+
+/*Pagina Contato*/
+.titulo{
+    margin-bottom: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ml-50{
+    margin-left: 150px;
+}
