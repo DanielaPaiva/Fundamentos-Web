@@ -4,11 +4,13 @@
     padding:0px
 }
 body{
-    background-position:center;
+    /*background-position:center;*/
     text-align:center;
-    background-color: white;
-    margin:auto;
-    width:1000px
+    background-color: rgb(255, 255, 255);
+    /*margin:auto;*/
+    /*width: 1000px;*/
+    
+   
 }
   
 header{
@@ -16,7 +18,7 @@ header{
     text-align:left;
     height: 60px;
     padding: 15px;
-    width: 1000px;
+    
 }
 
 
@@ -24,6 +26,7 @@ h1,h2{
     text-align: center;
     color:#1a2340;
     font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
 }
 
 .menu #divBusca{
@@ -32,6 +35,8 @@ background-color:white;
   border-radius:15px;
   width:300px;
   margin-bottom: 20px;
+  margin-left: 15px;
+  
  
 }
 .menu #txtBusca{
@@ -43,22 +48,19 @@ background-color:white;
     border:none;
     height:32px;
     width:260px;
-    justify-content: right;
-
-  }
+}
  
 .menu  li, a{
     display: inline;
     padding: 20px;
     text-decoration: none;
     color:#1a2340;
-    padding: 15px 10px 0 0;
-
-   
-   
-
+    padding: 5px 10px 0 0;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 15px;
 }
 .menu a:hover{
+    
     background-color:rgba(0,0,0,0.5);
     color:#0b8aa1;
     
@@ -66,20 +68,41 @@ background-color:white;
 .paris{
     width:300px;
     height: 300px; 
+    margin-left: 150px;
 }
 .container{
     display: flex;
     flex-flow: row ;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
+   
+   
+}
+.container1{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: left;
 }
 
-
-.txt{
+.txt1{
     text-align: justify;
     font-size: 18px;
     color:#1a2340;
     font-family: 'Archivo', sans-serif;
+    justify-content: center;
+    margin-right: 180px;
+       
+}
+.txt2{
+    text-align: justify;
+    font-size: 18px;
+    color:#1a2340;
+    font-family: 'Archivo', sans-serif;
+    justify-content: center;
+    margin-right: 185px;
+    margin-left: 185px;
+       
 }
 .foto img{
     width:300px;
@@ -87,10 +110,7 @@ background-color:white;
     padding:15px
      
 }
-footer{
-    background-color: #0b8aa1;
-    margin-top: 85px;
-}
+
 .redes img{
     width:30px;
      height:30px;
@@ -108,9 +128,10 @@ form select{
     border:none;
     width:100px;
     height: 30px;
+    
 }
 form  input{
-    background: none;
+    background:none;
     border:none;
     width:200px;
     height: 30px;
@@ -118,24 +139,63 @@ form  input{
 form button{
     background: #0b8aa1;
     border:none;
-    color:#1a2340;
+    color:white;
     border-radius:0.8rem;
     width:100px;
     height: 30px;
+    margin-top: 5px;
+    
+
+    
 }
 form label{
-    color: #0b8aa1;
-    
-    
+    color: #0b8aa1;  
+ 
 }
-
+footer{
+    background-color: #0b8aa1;
+    margin-top: 70px;
+}
 
 /*Pagina Contato*/
 .titulo{
-    margin-bottom: 45px;
-    font-family: 'Dancing Script', cursive;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script',cursive;
+    text-align: center;
 }
-
 .ml-50{
     margin-left: 150px;
+}
+.lupa{
+    background-color:white;
+    border:none;
+    border-radius:15px;
+}
+
+/*Pagina lugares*/
+
+.Paises img{
+    width:400px;
+    height:250px;
+    padding:15px;
+    border-radius: 10%;
+}
+.bloco{
+    display: flex;
+    flex-flow: row ;
+    justify-content: right;
+    align-items: left;
+}
+
+
+#sidebar {
+    display:none;
+    font-family: 'Archivo', sans-serif;
+    color:#1a2340;
+    
+}
+.cart:hover #sidebar {
+    display: inline-flex;
+  
 }
