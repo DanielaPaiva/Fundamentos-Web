@@ -1,0 +1,335 @@
+*{
+    margin:0px ;
+    padding:0px
+ }
+
+
+nav{
+     width:100%;
+     background-color: #DB6247;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+}
+nav ul{
+    text-align: center;
+    display:flex;
+    justify-content: flex-end;
+    padding:0px ;
+    list-style: none;
+    
+}
+nav li{
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+nav a:hover{
+    background-color:rgba(0,0,0,0.5); 
+    color:#DB6247;
+}
+.logoGen{
+    width:160px;
+    height:60px;
+  
+}
+.menu #divBusca{
+    background-color:white;
+    border:none;
+    border-radius:15px;
+    width:300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; 
+     
+}
+.menu #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+.lupa{
+    background-color:white;
+    border:none;
+    border-radius:15px;
+}
+
+.logoGen{
+    margin-right: 300px;
+}
+
+
+/*Sobre react*/
+
+.react img{
+    margin: 50px;
+     width: 450px;
+     height: 400px;
+}
+#bg-curso{
+    margin-top: 70px;
+    background: linear-gradient(225deg, hsla(11, 67%, 57%, 1) 30%, hsla(355, 58%, 60%, 1) 100%);
+}
+#sobreCurso{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#container-curso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#container-curso p{
+    color: white;
+    font-size:80px;
+    margin: 70px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+#container-curso .bt{
+    border:none;
+    background-color:rgba(255, 255, 255, 0.288);
+    font-family: 'Special Elite', cursive;
+    width:200px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: wheat;
+    margin-bottom: 35px;
+    margin-inline-end:10px ;
+}
+
+/*Sobre a generation*/
+
+#container-curso .txt{
+    font-family: 'Archivo', sans-serif;
+    color: rgba(15, 15, 15, 0.692);
+    font-size:20px;
+    text-align:justify ;
+    
+}
+ h3{
+    font-family: 'Special Elite', cursive;
+    color:#DB6247;
+    font-size:30px;
+    text-align:center ;
+    margin-top: 100px;
+    
+}
+iframe{
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+
+
+/*Nossos cursos*/
+
+h2{
+    font-size: 28px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-align:center ;
+}
+p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    text-align:center ;
+}
+.container-curso img{
+    width: 120px;
+    height: 150px;
+    align-items: center;
+}
+.container-curso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ .card1{
+    background-color: #D45F68;
+    width: 250px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow:11px 7px 5px rgba(235, 128, 128, 0.527)
+}
+.card2{
+    background-color: #DBC548;
+    width: 250px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow:11px 7px 5px rgba(217, 233, 72, 0.788);
+}
+
+.card3{
+    background-color: #DB6247;
+    width: 250px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow:11px 7px 5px rgba(233, 92, 36, 0.5);
+    
+}
+
+hr{
+    display: block;
+    border: none;
+    height: 3px;
+    background-color:white;
+    margin: 0px;
+}
+
+/*Mercado de trabalho*/
+#newcurso{
+    margin-top: 160px;
+    scroll-behavior: smooth;
+}
+.container-trabalho{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container-trabalho h2{
+    margin-top: 125px;
+    font-size: 28px;
+    color: rgb(8, 8, 8);
+    font-family: 'Special Elite', cursive;
+    text-align:center ;
+    
+}
+.container-trabalho .txt{
+    font-family: 'Archivo', sans-serif;
+    color: rgba(7, 7, 7, 0.692);
+    font-size:20px;
+    text-align: justify;
+    margin: 33px;
+}
+
+/*Form*/
+#form{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background: linear-gradient(225deg, hsla(11, 67%, 57%, 1) 30%, hsla(355, 58%, 60%, 1) 100%);
+    
+    
+}
+.container-forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.formulario{
+    background-color: #f1a796ab;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+   
+}
+.titulo{
+    font-size: 28px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    margin-top: 50px;
+}
+form{
+    margin-top: 15px;
+    margin:45px;
+    
+}
+
+
+form label{
+    font-family: 'Special Elite', cursive;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+   
+
+}
+form input{
+    font-family: 'Special Elite', cursive;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white ;
+    outline: none;
+    background: transparent;
+}
+form input::placeholder{
+    color:rgb(250, 243, 243);
+}
+form select {
+    border: white ;
+    border-radius: 62px;
+    color:rgb(10, 10, 10) ;
+}
+
+.foto{
+    margin-top: 125px;
+}
+
+.bt-form{
+    border:none;
+    background: linear-gradient(225deg, hsla(11, 67%, 57%, 1) 30%, hsla(355, 58%, 60%, 1) 100%);
+    color: white;
+    font-family: 'Special Elite', cursive;
+    width:200px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+/*Footer*/
+footer{
+    background-color: #DB6247;
+    align-items: center;
+    font-family: 'Special Elite', cursive;
+}
+.p{
+    margin-top: 35px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-align:center ;
+}
+footer a:hover{
+    color: rgba(15, 15, 15, 0.692);
+   color: #DB6247;
+   
+}
+.redes img{
+    width:30px;
+     height:30px;
+     padding:10px;   
+}
+.redes img:hover{
+    background-color:rgba(0,0,0,0.5);
+    padding:11px;
+     text-align:center;
+}
